@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".article.AddActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:text="제목"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" />
+    <EditText
+        android:hint="제목을 입력하세요."
+        android:id="@+id/title"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:background="@drawable/bg_outlinke_rectangle"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="내용"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" />
+    <EditText
+        android:hint="내용을 입력하세요."
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_outlinke_rectangle"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:gravity="top"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollHorizontally="false"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/addbtn"
+        android:layout_gravity="center"
+        android:text="저장하기"
+        android:textSize="13dp"
+        android:textColor="@color/white"
+        android:background="@color/primary"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search.MainSearchActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/flowertitle"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="꽃 목록"
+            android:paddingStart="20dp"/>
+        <View
+            android:id="@+id/flowerView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc"/>
+        <ListView
+            android:id="@+id/flowerlist"
+            android:padding="40px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+        <TextView
+            android:id="@+id/articletitle"
+            android:textColor="#000"
+            android:paddingStart="20dp"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="게시글 목록"/>
+        <View
+            android:id="@+id/articleView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc"/>
+        <ListView
+            android:id="@+id/articlelist"
+            android:padding="40px"
+            android:paddingTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/todaymenu"
+        android:title="오늘의 꽃"
+        android:icon="@drawable/ic_outline_emoji_nature_24"/>
+    <item
+        android:id="@+id/flowermenu"
+        android:title="꽃 목록"
+        android:icon="@drawable/ic_outline_filter_vintage_24"/>
+    <item
+        android:id="@+id/board"
+        android:title="게시판"
+        android:icon="@drawable/ic_baseline_article_24"/>
+    <item
+        android:id="@+id/listmenu"
+        android:title="보관함"
+        android:icon="@drawable/ic_baseline_star_border_24"/>
+</menu>
