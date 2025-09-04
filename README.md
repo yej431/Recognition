@@ -8,7 +8,7 @@ Gradle 빌드 시스템과 `app` 디렉토리에 Java 소스가 있는 구조로
 ##  요구사항
 - Java JDK 11 이상
 - Gradle (또는 포함된 Gradle Wrapper로 자동 실행 가능)
-- (Optional) Maven 기록 확인 등 IDE 사용 가능
+- Maven 기록 확인 등 IDE 사용 가능
 
 ---
 
