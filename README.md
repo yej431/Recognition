@@ -12,7 +12,7 @@ Gradle 빌드 시스템과 `app` 디렉토리에 Java 소스가 있는 구조로
 
 ---
 
-##  실행 방법 (가정)
+##  실행 방법
 1. 리포지토리 클론:
    ```sh
    git clone https://github.com/yej431/Recognition.git
